@@ -8,10 +8,8 @@ interface TableProps {
 }
 
 export default function Table({data, heads}: TableProps){
-
-    console.log(data)
     return(
-        <table className="shadow rounded-lg w-3/4">
+        <table className="shadow rounded-lg w-fit hidden md:block">
             <thead className="bg-gray-50 border-b-[1px] border-gray-200">
                 <tr>
                   {heads.map((head) => {

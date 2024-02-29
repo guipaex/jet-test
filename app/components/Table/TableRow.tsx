@@ -17,15 +17,15 @@ export default function TableRow ( {data}: TableRowProps ) {
                 <ItemPreview url={data.imgURL} name={data.name}/>
             </TableCell>
             
-            <TableCell style={'max-w-[330px]'}>
+            <TableCell style={'w-[290px]'}>
                 <NexReservartion date={data.nextReservation}/>
             </TableCell>
             
-            <TableCell style={'max-w-[330px]'}>
+            <TableCell style={'w-[290px]'}>
                 <StatusBadge status={data.status}/>
             </TableCell>
             
-            <TableCell style={'max-w-[330px]'}>
+            <TableCell style={'w-[290px]'}>
                 <Rating rating={data.rating}/>
             </TableCell>
             
