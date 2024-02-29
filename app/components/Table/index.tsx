@@ -7,10 +7,10 @@ interface TableProps {
     heads: string[];
 }
 
-export default function MobileTable({data, heads}: TableProps){
+export default function Table({data, heads}: TableProps){
     return(
-        <table className="shadow rounded-lg w-3/4">
-            <thead className="bg-gray-50 border-b-[1px] border-gray-200 hidden">
+        <table className="shadow rounded-lg w-fit hidden md:block">
+            <thead className="bg-gray-50 border-b-[1px] border-gray-200">
                 <tr>
                   {heads.map((head) => {
                     return <TableHead key={head}>{head}</TableHead>
