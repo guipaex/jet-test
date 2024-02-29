@@ -13,25 +13,11 @@ interface TableRowProps {
 export default function TableRow ( {data}: TableRowProps ) {
     return(
         <tr>
-            <TableCell style={'w-[290px]'}>
-                <ItemPreview url={data.imgURL} name={data.name}/>
-            </TableCell>
-            
-            <TableCell style={'w-[290px]'}>
-                <NexReservartion date={data.nextReservation}/>
-            </TableCell>
-            
-            <TableCell style={'w-[290px]'}>
-                <StatusBadge status={data.status}/>
-            </TableCell>
-            
-            <TableCell style={'w-[290px]'}>
-                <Rating rating={data.rating}/>
-            </TableCell>
-            
-            <TableCell style={'w-5'}>
-                <ActionsButton />
-            </TableCell>
+            <TableCell style={'w-[290px]'}> <ItemPreview url={data.imgURL} name={data.name}/> </TableCell>
+            <TableCell style={'w-[290px]'}> <NexReservartion date={data.nextReservation}/> </TableCell>  
+            <TableCell style={'w-[290px]'}> <StatusBadge status={data.status}/> </TableCell>
+            <TableCell style={'w-[290px]'}> <Rating rating={data.rating}/> </TableCell>
+            <TableCell style={'w-5'}> <ActionsButton /> </TableCell>
         </tr>
     )
 }

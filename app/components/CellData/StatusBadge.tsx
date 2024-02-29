@@ -18,7 +18,6 @@ const STYLES = {
 
 export default function StatusBadge ({status, type}: StatusBadgeProps) {
     const style = STYLES[status.toLocaleLowerCase() as keyof typeof STYLES];
-
     if(type === 'icon'){
         return (
             <div className="absolute m-1 z-10">
@@ -27,9 +26,5 @@ export default function StatusBadge ({status, type}: StatusBadgeProps) {
             </div>
         )
     }
-    return (
-        <p className={style.string}>
-            {status}
-        </p>
-    )
+    return <p className={style.string}> {status} </p>
 }

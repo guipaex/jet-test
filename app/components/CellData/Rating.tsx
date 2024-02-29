@@ -16,26 +16,19 @@ interface RatingStarProps {
 }
 
 function RatingStars({top, mask = 2.5, color}: RatingStarProps) {
-
-    const maskWidth = (mask / 5) * 100;
+  const maskWidth = (mask / 5) * 100;
 
   if(top) {
     return (
       <div style={{ width: `${maskWidth}%`}} className={`relative z-10 flex overflow-hidden`}>
-        <div className={`flex w-fit ${color}`}>
-          {[...Array(5)].map((_, index) => (
-            <FaStar key={index} />
-          ))}
-        </div>
+        <div className={`flex w-fit ${color}`}> {[...Array(5)].map((_, index) => ( <FaStar key={index} /> ))} </div> 
       </div>
     )
-  }else {
-    return(
+  } else {
+    return (
       <div className={`absolute z-0 flex`}>
         <div className={`flex justify-center ${color}`}>
-          {[...Array(5)].map((_, index) => (
-            <FaStar key={index} />
-          ))}
+          {[...Array(5)].map((_, index) => ( <FaStar key={index} />))}
         </div>
       </div>
     ) 
