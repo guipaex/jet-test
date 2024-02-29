@@ -5,7 +5,7 @@
         "name": "Mini Cooper 2020",
         "nextReservation": "11/07",
         "status": "Available",
-        "rating": 3.2
+        "rating": 2.5
     },
     {
         "id": "00002",
@@ -20,7 +20,7 @@
         "imgURL":"/imgs/monza-93.jpg",
         "name": "Monza 93",
         "nextReservation": "06/05",
-        "status": "InUse",
+        "status": "Unavailable",
         "rating": 3.8
     },
     {
@@ -28,7 +28,7 @@
         "imgURL":"/imgs/uno-escada.jpg",
         "name": "Uno com escada",
         "nextReservation": "03/07",
-        "status": "InUse",
+        "status": "Unavailable",
         "rating": 5
     }
     ,
