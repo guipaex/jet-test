@@ -1,0 +1,43 @@
+[
+    {
+        "id": "00001",
+        "imgURL":"/imgs/cooper-thumb.jpg",
+        "name": "Mini Cooper 2020",
+        "nextReservation": "11/07",
+        "status": "Available",
+        "rating": 2.5
+    },
+    {
+        "id": "00002",
+        "imgURL":"/imgs/delorean.jpg",
+        "name": "Delorean 1982",
+        "nextReservation": "05/11",
+        "status": "Available",
+        "rating": 4
+    },
+    {
+        "id": "00003",
+        "imgURL":"/imgs/monza-93.jpg",
+        "name": "Monza 93",
+        "nextReservation": "06/05",
+        "status": "Unavailable",
+        "rating": 3.8
+    },
+    {
+        "id": "00004",
+        "imgURL":"/imgs/uno-escada.jpg",
+        "name": "Uno com escada",
+        "nextReservation": "03/07",
+        "status": "Unavailable",
+        "rating": 5
+    }
+    ,
+    {
+        "id": "00005",
+        "imgURL":"/imgs/opala-82.jpg",
+        "name": "Opala 1982",
+        "nextReservation": "07/07",
+        "status": "Available",
+        "rating": 4.2
+    }
+]
