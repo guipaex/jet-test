@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align='center'>
+<h1> Teste Técnico para Dev Frontend Jr. </h1>
 
-## Getting Started
+![LAST COMMIT](https://img.shields.io/github/last-commit/guipaex/jet-test?style=for-the-badge&color=008ffc)
+![REPO SIZE](https://img.shields.io/github/repo-size/guipaex/jet-test?style=for-the-badge&color=008ffc)
+<br />
 
-First, run the development server:
+<a href="https://jet-frontend-test.vercel.app/" alt="Deploy">Ver Deploy</a>
+·
+<a href="https://github.com/guipaex/jet-test/issues" alt="Faça uma sugestão">Sugestões e Feedbacks</a>
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O objetivo do teste era criar uma aplicação web responsiva utilizando NextJs, TypeScript, Tailwind, Composition Pattern, Componetização, GitFlow e finalizando com o deploy na Vercel.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<div align='center'>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Avaliação do Lighthouse
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<p> Um dos Critérios de Avaliação do teste foram os resultados Relatório de Desempenho do Lighthouse(Google)</p>
+<div style='display: flex'>
+    <div>
+        <img alt="Logo" title="#logo" width="100%" src="public/doc/lighthouse-mobile.png">
+        <p> Resultado da versão Mobile </p>
+    </div>
+    <div>
+        <img alt="Logo" title="#logo" width="100%" src="public/doc/lighthouse-desktop.png">
+        <p> Resultado da versão Desktop </p>
+    </div>
+</div>
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Projeto criado com [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/) [Tailwind](https://tailwindcss.com/) e [React-Icons](https://react-icons.github.io/react-icons/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+</div>
